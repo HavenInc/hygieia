@@ -1,0 +1,26 @@
+
+<div class="container">
+  <h1>People</h1>
+
+  <div class="person-container" ng-repeat="person in home.persons">
+    <div>Name: {{ person.name }}</div>
+    <div>Age: {{ person.age }}</div>
+    <!--
+    TODO: render interests as list which can be edited
+    <div>Interests: {{ person.interests }}</div>
+     -->
+    <div class="actions">
+      <button class="btn btn-default" ng-click="home.edit(person)">
+        Edit
+      </button>
+      <button class="btn btn-danger" ng-click="home.remove(person)">
+        Remove
+      </button>
+    </div>
+  </div>
+
+  <button class="btn btn-primary" ng-click="home.addPerson()">
+    Add Person
+  </button>
+
+</div>

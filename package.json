@@ -1,9 +1,10 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.10"
-    , "jade": ">= 0.0.1"
+  "name": "test-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "4.8.0",
+    "method-override": "^2.3.5",
+    "serve-favicon": "^2.3.0"
   }
 }
