@@ -29,7 +29,7 @@ app.put('/api/persons/:id', api.editPerson);
 app.delete('/api/persons/:id', api.deletePerson);
 
 // redirect all others to the index (HTML5 history)
-app.route('/').get(routes.index);
+app.route('*').get(routes.index);
 
 // Start server
 app.listen(3000, function(){
