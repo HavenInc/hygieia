@@ -17,12 +17,12 @@ This is a simple app that displays a list of people. It requires the following f
 - [ ] Show off any CSS/design skills
 
 ### Criteria ###
-* Your code is readable, DRY, well-organized
+* Your code is readable, DRY, well-organized, and reflects a thorough understanding of Javascript
 * Your code contains comments where necessary
 * Your design displays familiarity with CSS beyond Bootstrap
 
 ## Instructions ##
 
-Pull this repo, create your own branch, and run `node app.js` to run the app at `localhost:3000`. When you believe you are finished, open up a pull request. 
+Pull this repo, create your own branch, and run `node app.js` to run the app at `localhost:3000`. Copy the feature requirements from this README into your pull request comments and mark off each todo item when you've finished it. When you believe you are done, submit your pull request. 
 
-**NB** Feel free to change any of the exiting code!
+**NB** Feel free to change any of the existing code!
