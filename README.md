@@ -23,6 +23,6 @@ This is a simple app that displays a list of people. It requires the following f
 
 ## Instructions ##
 
-Pull this repo, create your own branch, and run `node app.js` to run the app at `localhost:3000`. Copy the feature requirements from this README into your pull request comments and mark off each todo item when you've finished it. When you believe you are done, submit your pull request. 
+Fork this repo, create your own branch, and run `node app.js` to run the app at `localhost:3000`. Copy the feature requirements from this README into your pull request comments and mark off each todo item when you've finished it. When you believe you are done, submit your pull request. 
 
 **NB** Feel free to change any of the existing code!
